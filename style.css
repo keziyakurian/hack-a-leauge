@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #f6bebd;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.splash {
+    font-size: 4rem;
+    position:fixed;
+    top:40vh;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:200;
+    /* color:white; */
+    text-align:center;
+    background: -webkit-linear-gradient(#cc2b5e, #753a88);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.splash.display-none{
+    position:fixed;
+    opacity: 0;
+    top:40vh;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:-10;
+    color:white ;
+    text-align:center;
+    transition: all 0.5s ;
+} 
+
+.splash2 {
+    font-size: 4rem;
+    position:fixed;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:200; 
+    color: white;
+    text-align:center;
+  
+    line-height: 90vh;
+} 
+
+.splash2.display-none{
+    position:fixed;
+    opacity:0;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:-10;
+    color:white;
+    text-align:center;
+    line-height: 90vh;
+} 
+
+@keyframes fadeIn{
+    to{
+        opacity:1;
+    }
+}
+.fade-in {
+    opacity :0;
+    animation: fadeIn 1s ease-in forwards;
+} 
+
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+span.fade {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+span{
+    transition: all 1s ease;
+
+}
+span.fade {
+    background: -webkit-linear-gradient(#da22ff, #9733ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
