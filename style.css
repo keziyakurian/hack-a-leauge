@@ -15,7 +15,7 @@
     height:100%;
     z-index:200;
     /* color:white; */
-    /*text-align:center;
+/*text-align:center;
     background: -webkit-linear-gradient(#cc2b5e, #753a88);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -89,7 +89,7 @@ span{
 span.fade {
     background: -webkit-linear-gradient(#da22ff, #9733ee);
     -webkit-background-clip: text;*/
-    /*-webkit-text-fill-color: transparent;
+/*-webkit-text-fill-color: transparent;
 }
 
 .home_cont{
@@ -110,13 +110,11 @@ span.fade {
     justify-content: center;
     float: left;
     /*position:absolute;*/
-    /*top: 4%;
+/*top: 4%;
     width: 100%;
     
 
 }*/
-
-
 
 /*.quiz{
     background-color: aliceblue;
@@ -132,17 +130,17 @@ span.fade {
     align-items: center;
     justify-content: center;
     /*display:flex;*/
-    /*position: absolute;
+/*position: absolute;
     top: 8%;
     right: 50%;*/
-    
+
 /*}**/
 
 /*.quiz-btn{
     align-items: center;
     justify-content: center;
     /*display:flex;*/
-    /*position: absolute;
+/*position: absolute;
     top: 20%;
     right: 50%;
     
@@ -153,38 +151,34 @@ span.fade {
     justify-content: center;
     float: left;
     /*position:absolute;*/
-    /*bottom:50%;
+/*bottom:50%;
     top: 70%;
     width: 100%;
     */
 
 /*}*/
 body {
-  background-color:  #0a3170;
+  background-color: #0a3170;
   overflow-x: hidden;
-/*     #0a3170;  */
- 
-  
+  /*     #0a3170;  */
 }
 
-.name{
-  font-size: 40px; 
+.name {
+  font-size: 40px;
 }
-
-
 
 svg {
   max-width: 90%;
   max-height: 50%;
-  position: relative; 
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-} 
-svg path{
-/*   fill-opacity: 0;
+}
+svg path {
+  /*   fill-opacity: 0;
   fill: #fff !important; */
   stroke: #ffff;
   stroke-width: 10;
@@ -209,127 +203,121 @@ svg path{
   }
 }
 
-
 .body-grad1 {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 45vh;
-
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 45vh;
 }
 
 .body-grad2 {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 45vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 45vh;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.schedule{
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    
-    
+.schedule {
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.quiz{
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    
-    
+.quiz {
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.grad{
-    padding: 50px 60px 30px 0px;
-    width:100%;
-    /*display:flexbox;*/
+.grad {
+  padding: 50px 60px 30px 0px;
+  width: 100%;
+  /*display:flexbox;*/
 }
 
-.Shead{
-    justify-content: center;
-    position: absolute;
-    top: 195%;
-    right: 35%;
+.Shead {
+  justify-content: center;
+  position: absolute;
+  top: 195%;
+  right: 35%;
 }
 
-.Qhead{
-    justify-content: center;
-    position: absolute;
-    top: 240%;
-    right: 38%;
+.Qhead {
+  justify-content: center;
+  position: absolute;
+  top: 240%;
+  right: 38%;
 }
 
-.quizlink{
-    justify-content: center;
-    position: absolute;
-    top: 260%;
-    right: 46%;
+.quizlink {
+  justify-content: center;
+  position: absolute;
+  top: 260%;
+  right: 46%;
 }
 
-.schedulelink{
-    justify-content: center;
-    position: absolute;
-    top: 215%;
-    right: 46%;
+.schedulelink {
+  justify-content: center;
+  position: absolute;
+  top: 215%;
+  right: 46%;
 }
 
-.schedule-btn{
-    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-    height: 50px;
-    width: 150px;
-    border-radius:50px;
-
-
+.schedule-btn {
+  /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.schedule-btn:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.schedule-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.quiz-btn{
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-    height: 50px;
-    width: 150px;
-    color:#ffffff;
-    height: 50px;
-    width: 150px;
-    border-radius:50px;
+.quiz-btn {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 50px;
+  width: 150px;
+  color: #ffffff;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
 }
-.quiz-btn:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.quiz-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*$color: #32e0c4;
@@ -346,7 +334,7 @@ $bg: rgb(0,0,0);*/
   margin: auto;
   margin-top: 13%;
   border-radius: 50%;
-  background: rgb(0,0,0);
+  background: rgb(0, 0, 0);
   transform: rotate(180deg);
 }
 .music {
@@ -392,25 +380,104 @@ $bg: rgb(0,0,0);*/
 
 /*#pauseplay*/
 .playpause {
-  display:block; 
-  cursor: pointer; 
-  width: 50px; 
-  height:50px; 
-  background-color:#000000;
-
-  
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
 }
 
-button{
-  cursor: pointer; 
-  font-family:Tahoma; 
+button {
+  cursor: pointer;
+  font-family: Tahoma;
   font-weight: bold;
-  font-size:14px; 
-  background-color:#00ffff;
-  color:blue;
+  font-size: 14px;
+  background-color: #00ffff;
+  color: blue;
   padding: 13px 6px;
 }
 
 .hometext {
-    font-family: 'DM Mono', monospace;
+  font-family: "DM Mono", monospace;
+}
+.text2 {
+  font-family: "DM Mono", monospace;
+
+    font-size: 5px;
+  color: #ffffff;
+}
+
+.card-list {
+  display: flex;
+  padding: 3rem;
+  overflow-x: scroll;
+}
+
+.card-list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb {
+  background: #201c29;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-list::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+}
+.card {
+  /* ... */
+
+  border-radius: 16px;
+  background: #17141d;
+  box-shadow: -1rem 0 3rem #000;
+
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.card:hover ~ .card {
+  transform: translateX(130px);
+}
+
+.card:not(:first-child) {
+  margin-left: -130px;
+}
+.card-header {
+  margin-bottom: auto;
+}
+
+.card-header p {
+  font-size: 14px;
+  margin: 0 0 1rem;
+  color: #7a7a8c;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  margin: 0.25rem 0 auto;
+  cursor: pointer;
+}
+
+.card-header h2:hover {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
