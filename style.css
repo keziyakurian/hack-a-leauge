@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 /*body {
     height: 100%;
     width: 100%;
+=======
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #f6bebd;
+>>>>>>> 82da3274eab7f29c4843db15cbcdf5f783edd00e
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +22,11 @@
     height:100%;
     z-index:200;
     /* color:white; */
+<<<<<<< HEAD
 /*text-align:center;
+=======
+    text-align:center;
+>>>>>>> 82da3274eab7f29c4843db15cbcdf5f783edd00e
     background: -webkit-linear-gradient(#cc2b5e, #753a88);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,9 +70,15 @@
     color:white;
     text-align:center;
     line-height: 90vh;
+<<<<<<< HEAD
 } */
 
 /*@keyframes fadeIn{
+=======
+} 
+
+@keyframes fadeIn{
+>>>>>>> 82da3274eab7f29c4843db15cbcdf5f783edd00e
     to{
         opacity:1;
     }
@@ -88,6 +105,7 @@ span{
 }
 span.fade {
     background: -webkit-linear-gradient(#da22ff, #9733ee);
+<<<<<<< HEAD
     -webkit-background-clip: text;*/
 /*-webkit-text-fill-color: transparent;
 }
@@ -501,3 +519,8 @@ button {
     font-size:50px;
     text-align: center;
 }
+=======
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+>>>>>>> 82da3274eab7f29c4843db15cbcdf5f783edd00e
