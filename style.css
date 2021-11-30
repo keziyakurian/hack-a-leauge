@@ -260,7 +260,7 @@ svg path {
   justify-content: center;
   position: absolute;
   top: 240%;
-  right: 38%;
+  right: 42%;
 }
 
 .quizlink {
@@ -399,6 +399,8 @@ button {
 
 .hometext {
   font-family: "DM Mono", monospace;
+  text-decoration-color: white;
+  text-align: center;
 }
 .text2 {
   font-family: "DM Mono", monospace;
@@ -410,7 +412,7 @@ button {
 .card-list {
   display: flex;
   padding: 3rem;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .card-list::-webkit-scrollbar {
@@ -462,14 +464,15 @@ button {
   margin-bottom: auto;
 }
 
+
 .card-header p {
-  font-size: 14px;
+  font-size: 80px;
   margin: 0 0 1rem;
   color: #7a7a8c;
 }
 
 .card-header h2 {
-  font-size: 20px;
+  font-size: 80px;
   margin: 0.25rem 0 auto;
   cursor: pointer;
 }
@@ -480,4 +483,21 @@ button {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.uni{
+    width: 100%;
+    height: 100%;
+}
+
+.unitext{
+    font-size:55px;
+    font-family: "DM Mono", monospace;
+    align-items: center;
+    text-align:center;
+}
+
+.affri{
+    font-size:50px;
+    text-align: center;
 }
